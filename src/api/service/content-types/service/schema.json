@@ -14,7 +14,8 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "body": {
       "type": "richtext",
@@ -23,7 +24,14 @@
     "slug": {
       "type": "uid",
       "targetField": "title",
+      "required": false
+    },
+    "Sub_Title": {
+      "type": "string",
       "required": true
+    },
+    "Sub_Title_2": {
+      "type": "string"
     }
   }
 }
