@@ -65,6 +65,10 @@
     },
     "body_2": {
       "type": "richtext"
+    },
+    "body_title": {
+      "type": "string",
+      "required": true
     }
   }
 }
