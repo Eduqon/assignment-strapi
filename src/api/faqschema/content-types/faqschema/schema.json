@@ -19,6 +19,10 @@
     "questionAnswer": {
       "type": "richtext",
       "required": true
+    },
+    "Slug": {
+      "type": "uid",
+      "required": true
     }
   }
 }
