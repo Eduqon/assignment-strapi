@@ -16,7 +16,7 @@
       "type": "string",
       "required": true
     },
-    "body_1": {
+    "body": {
       "type": "richtext",
       "required": true
     },
@@ -45,6 +45,20 @@
     "Categories": {
       "type": "string",
       "required": true
+    },
+    "Seo_Title": {
+      "type": "string",
+      "required": true
+    },
+    "Seo_Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Seo_Keyword": {
+      "type": "string"
+    },
+    "Seo_Cntag": {
+      "type": "string"
     }
   }
 }
