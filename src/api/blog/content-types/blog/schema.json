@@ -59,6 +59,9 @@
     },
     "Seo_Cntag": {
       "type": "string"
+    },
+    "SchemaTitle": {
+      "type": "string"
     }
   }
 }
