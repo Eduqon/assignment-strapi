@@ -28,12 +28,7 @@
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "Author_BIO": {
       "type": "richtext",
@@ -62,6 +57,13 @@
     },
     "SchemaTitle": {
       "type": "string"
+    },
+    "table_heading": {
+      "type": "string",
+      "required": false
+    },
+    "table_data": {
+      "type": "json"
     }
   }
 }

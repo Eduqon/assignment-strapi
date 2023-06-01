@@ -37,12 +37,7 @@
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "Seodescription": {
       "type": "richtext",
@@ -73,6 +68,13 @@
     "SchemaTitle": {
       "type": "string",
       "required": false
+    },
+    "table_heading": {
+      "type": "string",
+      "required": false
+    },
+    "table_data": {
+      "type": "json"
     }
   }
 }
